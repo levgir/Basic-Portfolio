@@ -18,3 +18,55 @@
     width: 100%;
     height: 100%;
 }
+
+#portfolio {
+    background-color: white;
+    width: 50%;
+    margin: auto;
+}
+
+body {
+    background-color: #efeee7;
+    margin: 0;
+}
+
+#portfolio-table {
+    padding-left: 15px;
+}
+
+.table-data {
+    padding: 15px;
+}
+
+.section-headers {
+    color: lightseagreen;
+    text-align: left;
+    vertical-align: middle;
+    line-height: 300%;
+    padding-left: 30px;
+    margin-bottom: 0;
+}
+
+.section-headers-divider {
+    margin-left: 30px;
+    margin-right: 30px;
+    border: 1px solid lightgray;
+    margin-top: 0;
+}
+
+.page-headers {
+    background-color: lightseagreen;
+    color: white;
+    font-size: 18pt;
+}
+
+header {
+    background-color: white;
+    border-bottom: 1px solid lightgray;
+    margin: 0;
+}
+
+.page-headers-containers {
+    width: 50%;
+    margin: auto;
+}
