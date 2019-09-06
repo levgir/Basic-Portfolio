@@ -10,12 +10,14 @@
 <body>
 
         <header>
-            <h1 class="page-headers">Levi Giraud</h1>
-            <nav>
-                <a href="index.html">About</a> |
-                <a href="portfolio.html">Portfolio</a> |
-                <a href="contact.html">Contact</a> |
-            </nav>
+            <div class="page-headers-containers">
+                <h1 class="page-headers">Levi Giraud</h1>
+                <nav>
+                    <a class="nav-bar-link" href="index.html">About</a> |
+                    <a class="nav-bar-link" href="portfolio.html">Portfolio</a> |
+                    <a class="nav-bar-link" href="contact.html">Contact</a>
+                </nav>
+            </div>
         </header>
     
     <div>
@@ -23,25 +25,20 @@
         <section id="contact">
 
             <h1 class="section-headers">Contact</h1> 
+            <hr class="section-headers-divider">
 
+            <section id="contact-section">
+                <form id="form-section">
+                    Name:<br>
+                    <input type="text" name="name"><br>
+                    Email:<br>
+                    <input type="text" name="email"><br>
+                    Message:<br>
+                    <input id="input-message" type="text" name="message">
+                </form>
+                <button id="contact-button"></button>
+            </section>
         </section>
-
-        <section>
-
-            <form>
-                Name:<br>
-                <input type="text" name="name"><br>
-                email:<br>
-                <input type="text" name="email"><br>
-                message:<br>
-                <input type="text" name="message">
-            </form>
-
-            <button></button>
-
-
-        </section>
-
     </div>
 </body>
 </html>
