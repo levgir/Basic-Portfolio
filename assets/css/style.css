@@ -1,7 +1,30 @@
-.photo-container-line-1 {
+.photo-containers {
     position: relative;
     height: 100px;
     width: 150px;
+    float: left;
+}
+
+#hangman-photo {
+    margin: 15px 15px 15px 30px;
+}
+
+#rpg-photo {
+    margin: 15px 15px 15px 15px;
+}
+
+#trivia-photo {
+    margin: 15px 15px 15px 30px;
+    clear: left;
+}
+
+#rutgers-photo {
+    margin: 15px 15px 15px 15px;
+}
+
+#rock-paper-scissors-photo {
+    margin: 15px 15px 15px 30px;
+    clear: left;
 }
 
 .text-block {
@@ -24,8 +47,10 @@
 #portfolio {
     background-color: #ffffff;
     width: 960px;
+    height: 500px;
     margin: auto;
     border: 1pt solid #dddddd;
+    overflow: auto;
 }
 
 body {
