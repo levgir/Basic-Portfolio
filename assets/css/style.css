@@ -183,7 +183,10 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
-    border-top: solid 4px #4aaaa5;
+    border-top: solid 6px #4aaaa5;
+    color: #ffffff;
+    font-size: 8pt;
+    text-align: center;
 }
 
 #personal-history {
